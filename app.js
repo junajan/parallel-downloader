@@ -31,9 +31,11 @@ function download(id, done) {
 
     var link = url + lZeroPad(id) + urlTld;
     var fileName = link.split("/");
-    console.log(" > Downloading ID: "+ id, fileName[fileName.length -1]);
+    fileName = fileName[fileName.length -1];
 
-    var file = fs.createWriteStream("downloads/" + fileName[fileName.length -1]);
+    console.log(" > Downloading ID: "+ id, fileName);
+
+    var file = fs.createWriteStream("downloads/" + fileName);
     var request = http.get(link, function(response) {
         response.pipe(file);
         console.log(" < Downloaded ID: ", id);
