@@ -1,0 +1,15 @@
+{
+    "name": "YoutubePlaylist-Downloader",
+    "description": "Simple app to download multiple songs from youtube playlist at once.",
+    "version": "0.0.1",
+    "main": "./app.js",
+    "private": true,
+    "dependencies": {
+      "async": "latest",
+      "mkdirp": "latest"
+    },
+    "author": {
+      "name": "Jan Juna",
+      "email": "mail@janjuna.cz"
+    }
+}
