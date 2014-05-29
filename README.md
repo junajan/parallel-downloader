@@ -5,4 +5,9 @@ Script written in Node.JS for parallel download of all podcast episodes made by 
 http://www.startupsfortherestofus.com/
 
 
+For installation run:
+npm install
+npm start
+
+
 Enjoy :-)
