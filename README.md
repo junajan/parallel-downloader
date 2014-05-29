@@ -4,10 +4,15 @@ parallel-downloader
 Script written in Node.JS for parallel download of all podcast episodes made by Startup for the rest of us.
 http://www.startupsfortherestofus.com/
 
+Installation
+-----------
 
-For installation run:
-npm install
-npm start
+    npm install
+
+Usage
+-----
+
+	npm start
 
 
 Enjoy :-)
